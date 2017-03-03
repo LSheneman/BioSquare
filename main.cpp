@@ -35,7 +35,7 @@ using namespace std;
 double w=1.0; //selection strength
 double mutationRate=0.01;
 double replacementRate=0.01;
-int generations=2000; // these are updates, but we call them generations which is a misnomer
+int generations=500000; // these are updates, but we call them generations which is a misnomer
 bool brh=false;
 
 int xm[8]={0,1,1,1,0,-1,-1,-1};
