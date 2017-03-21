@@ -212,9 +212,7 @@ int main(int argc, const char * argv[]){
                     euclidDist(refGenome[1],refGenome[2]),
                     var[0],var[1],var[2]
                     );
-            //this is in here to still output the regular gen files just in case
             if(verbousOutput){
-                //I removed a loop here, because it wasn't ding anything ... due to reused variable i
                 char plants[1000];
                 char herbs[1000];
                 char micros[1000];
